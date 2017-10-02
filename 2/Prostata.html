@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <title>Revista Agreste</title>
+    <meta name="description" content="Revista Agreste: Agrupamento de Estudos Excêntricos">
+    <meta name="keywords" content="Cinema,Revista,Documentário,Brasil,Estranho,Agrupamento de Estudo Excêntrico">
+    <link href="/2/css/tooltipster.css" rel="stylesheet">
+    <link href="/2/css/article.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/2/img/1/favicon.png"/>
+  </head>
+
+
+  <body class="background paralax"  style="background-image: url('/2/img/1/bgs/crua_a.jpg')" >
+
+        <header id="menu" class="site-header" role="banner">
+    <a href="/2/"><img src="/2/img/logo.svg"></a>
+    <div id="art-menu">
+    Artigos
+    <ul>
+      
+        <li><a href="/2/fotografia_exe">Fotografia.exe</a></li>
+      
+        <li><a href="/2/Visto_da_janela">Visto da Janela</a></li>
+      
+        <li><a href="/2/Sobre_escombros">SOBRE ESCOMBROS E BERINGELAS</a></li>
+      
+        <li><a href="/2/Revolucionar">REVOLUCIONAR A POSIÇÃO DO ESPECTADOR</a></li>
+      
+        <li><a href="/2/Prostata">APROVEITE SUA PRÓSTATA</a></li>
+      
+        <li><a href="/2/O_deslocamento_da_arquitetura">O DESLOCAMENTO DA ARQUITETURA NOS FILMES DE VANGUARDA</a></li>
+      
+        <li><a href="/2/Lembrancas">LEMBRANÇAS</a></li>
+      
+        <li><a href="/2/Derrubada">Derrubada</a></li>
+      
+        <li><a href="/2/Aa_anforas">AS ÂNFORAS</a></li>
+      
+        <li><a href="/2/A_narativizacao_do_sertao">A NARRATIVIZAÇÃO DO SERTÃO EM O PAÍS DE SÃO SARUÊ</a></li>
+      
+    </ul>
+    </div>
+</header>
+
+
+<img src="/2/img/prostata/PG_08.jpg" alt="APROVEITE SUA PRÓSTATA" width="100%" />
+<img src="/2/img/prostata/PG_07.jpg" alt="APROVEITE SUA PRÓSTATA" width="100%" />
+<img src="/2/img/prostata/PG_06.jpg" alt="APROVEITE SUA PRÓSTATA" width="100%" />
+<img src="/2/img/prostata/PG_05.jpg" alt="APROVEITE SUA PRÓSTATA" width="100%" />
+<img src="/2/img/prostata/PG_04.jpg" alt="APROVEITE SUA PRÓSTATA" width="100%" />
+<img src="/2/img/prostata/PG_03.jpg" alt="APROVEITE SUA PRÓSTATA" width="100%" />
+<img src="/2/img/prostata/PG_02.jpg" alt="APROVEITE SUA PRÓSTATA" width="100%" />
+<img src="/2/img/prostata/PG_01.jpg" alt="APROVEITE SUA PRÓSTATA" width="100%" />
+
+
+    <script type="text/javascript" src="/2/javascripts/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="/2/javascripts/jquery.tooltipster.min.js"></script>
+    <script type="text/javascript" src="/2/javascripts/article.js"></script>
+    <script type="text/javascript" src="/2/javascripts/okvideo.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function() {
+                $('.tooltip').tooltipster();
+                $("#title").click(function (evento){
+                  console.log(evento);
+                  if (evento['target']['id'] != 'b1'){
+                    $('html, body').animate({
+                        scrollTop: $("#text").offset().top
+                    }, 2000);
+                  }
+                });
+              });
+    </script>
+
+  </body>
+
+</html>
