@@ -30,6 +30,10 @@ a {
  color:white;
 }
 
+audio {
+  width: 100%
+}
+
 .content-b a {
  color: black;
 }
@@ -124,7 +128,7 @@ a {
 /*    display:table-cell; */
     position:relative;
     vertical-align:middle;
-    text-align: justify;
+    text-align: justify !important;
     text-indent: 2em;
     width: 58%;
     margin: auto;
