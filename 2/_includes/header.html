@@ -1,0 +1,11 @@
+<header id="menu" class="site-header" role="banner">
+    <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logo.svg"></a>
+    <div id="art-menu">
+    Artigos
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    </div>
+</header>

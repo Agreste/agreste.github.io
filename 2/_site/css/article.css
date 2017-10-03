@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Oswald|Cormorant+Garamond:300i');
+
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+    min-height:100%;
+    /* background-repeat: no-repeat;
+    background-size: 100%; */
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+ color:white;
+}
+
+.content-b a {
+ color: black;
+}
+
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+}
+
+.content-a-text {
+    width: 400px;
+    background-color: black;
+}
+
+.content-b-title {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+.content-b-title .box {
+    max-width: 58%;
+    margin: auto;
+}
+
+.content-b-title .box:hover {
+    cursor: pointer; cursor: hand;
+}
+
+.content-b-title .box .left {
+    text-align: left;
+}
+
+.content-b-title .box .right {
+    text-align: right;
+}
+
+.content-b-title h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(0,0,0);
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.content-b-title h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 300;
+    color: #fff;
+    background-color: rgb(0,0,0);
+    padding: 10px;
+    margin: 0px;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+
+.content-b-title span{
+  display: block;
+  padding: 0.3em 0.7em;
+  margin-top: 0.5em;
+  float: left;
+  clear: both;
+  background-color: rgb(0,0,0);
+  color: #fff;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  text-indent: 0;
+}
+
+.autor {
+  font-size: 1.7em !important;
+  display: block !important;
+}
+
+.content-b {
+/*    display:table-cell; */
+    position:relative;
+    vertical-align:middle;
+    text-align: justify;
+    text-indent: 2em;
+    width: 58%;
+    margin: auto;
+    margin-bottom: 100%;
+    background-color: #fff;
+    padding: 40px 160px 40px 60px;
+    font-size: 110%;
+    line-height: 2;
+}
+
+.sidenote {
+    float: right;
+    clear: right;
+    margin-right: -150%;
+    background-color: #fff;
+    width: 100%;
+    max-width: 750px;
+    padding: 15px;
+    font-size: small;
+}
+
+.sup{
+    vertical-align: super;
+    font-size: xx-small;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.right {
+  margin-right: 5% !important;
+  margin-left: auto !important;
+}
+
+.left {
+  margin-right: auto !important;
+  margin-left: 5% !important;
+}
+
+/* visual styles */
+body{
+    margin:0;
+    font-family:sans-serif;
+    font-size:18px;
+/*    line-height:100px; */
+    color:#000;
+    text-align:center;
+}
+section {
+    background:#9ed100;
+}
+.not-fullscreen {
+    height:50%;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+#menu img {
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+    opacity: 0.6;
+}
+
+.figure {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#art-menu {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    float: right;
+    width: 100px;
+    height: 100%;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgba(255,255,255, 0.8);
+    position: relative;
+}
+
+#art-menu:hover {
+    background-color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0, 1);
+}
+
+#art-menu ul {
+  padding: 0;
+  position: absolute;
+  top: 32px;
+  right: 0;
+  width: 200px;
+  line-height: 30px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  list-style: none;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#art-menu:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  background: rgba(0,0,0,0.6);
+  color: rgba(255,255,255,0.6);
+}
+
+#art-menu:hover ul li:hover  {
+  background-color: rgba(255,255,255, 0.7);
+}
+
+/*#art-menu:hover ul li:hover a:link {
+  font-size: 18px;
+  color: black;
+}*/
+
+#art-menu:hover ul li:hover a:hover {
+  color: black;
+}
+
+#art-menu:hover ul li a:link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.fullvideo {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.fullvideo iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  max-width: 100%;
+	max-height: 100%;
+}
+
+.vimeo-links {
+  background-color: rgba(0,0,0,0.8);
+  padding: 20px 0;
+  color: white;
+}
+
+.vimeo-links  a:link {
+  color: white;
+  font-size: 30px;
+}
+
+.vimeo-links  a:hover {
+  color: white;
+  font-size: 30px;
+}
+
+.vimeo-links  a:visited {
+  color: white;
+  font-size: 30px;
+}
+
+.tooltipster-default {
+    background-color: #fff;
+    color: black;
+    max-width: 600px;
+    text-align: justify;
+    border: 1px solid #666;
+    border-radius: 0px;
+}
+
+.tooltipster-default .tooltipster-content {
+    font-family: OpenSans;
+    font-size: small;
+}
+
+@media (max-width: 1200px) {
+  .content-b-title .box{
+    max-width: 80%;
+  }
+  .content-b{
+    padding-right: 80px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-b-title .box{
+    max-width: 100%;
+  }
+  .content-b{
+    width: 100%;
+    padding: 8%;
+  }
+}

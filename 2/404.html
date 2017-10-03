@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-    <head>
-    <meta charset="utf-8">
-    <title>Revista Agreste</title>
-    <meta name="description" content="Revista Agreste: Agrupamento de Estudos Excêntricos">
-    <meta name="keywords" content="Cinema,Revista,Documentário,Brasil,Estranho,Agrupamento de Estudo Excêntrico">
-    <link href="/2/css/tooltipster.css" rel="stylesheet">
-    <link href="/2/css/article.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/2/img/1/favicon.png"/>
-  </head>
-
-
-  <body class="background paralax" >
-
-        <style type="text/css" media="screen">
+<style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -34,26 +22,3 @@
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
-
-
-    <script type="text/javascript" src="/2/javascripts/jquery-1.12.2.min.js"></script>
-    <script type="text/javascript" src="/2/javascripts/jquery.tooltipster.min.js"></script>
-    <script type="text/javascript" src="/2/javascripts/article.js"></script>
-    <script type="text/javascript" src="/2/javascripts/okvideo.js"></script>
-    <script type="text/javascript">
-            $(document).ready(function() {
-                $('.tooltip').tooltipster();
-                $("#title").click(function (evento){
-                  console.log(evento);
-                  if (evento['target']['id'] != 'b1'){
-                    $('html, body').animate({
-                        scrollTop: $("#text").offset().top
-                    }, 2000);
-                  }
-                });
-              });
-    </script>
-
-  </body>
-
-</html>
