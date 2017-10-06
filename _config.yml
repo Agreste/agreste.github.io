@@ -35,6 +35,9 @@ collections:
   ed2:
     output: true
     permalink: /2/:title
+  ed2_especiais:
+    output: true
+    permalink: /2/:title
 
 # Build settings
 markdown: kramdown

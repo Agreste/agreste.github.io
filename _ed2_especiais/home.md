@@ -1,5 +1,5 @@
 ---
-layout: 1index
+layout: 2index
 title: Revista Agreste
-permalink: /1/
+permalink: /2/
 ---
