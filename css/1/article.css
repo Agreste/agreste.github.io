@@ -1,0 +1,301 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('../../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../../fonts/OpenSans-LightItalic.ttf');
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: BebasNeue;
+    src: url('../../fonts/BebasNeue.otf');
+}
+
+@font-face {
+    font-family: JosefinSlab;
+    src: url('../../fonts/JosefinSlab-Light.ttf');
+}
+
+@font-face {
+    font-family: Lekton;
+    src: url('../../fonts/Lekton-Regular.ttf');
+}
+
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+    min-height:100%;
+    /* background-repeat: no-repeat;
+    background-size: 100%; */
+    background-attachment: fixed;
+
+}
+
+body {
+    background-color: black;
+}
+
+a {
+ color:white;
+}
+
+.content-b a {
+ color: black;
+}
+
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+}
+
+.content-a-text {
+    width: 400px;
+    background-color: black;
+}
+
+.content-b-title {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align: center;
+}
+
+.content-b-title .box {
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    max-width: 50%;
+    margin: auto;
+}
+
+.content-b-title h1 {
+    font-family: BebasNeue;
+    font-size: 45px;
+    color: #fff;
+}
+
+.content-b-title h2 {
+    font-family: BebasNeue;
+    font-size: 25px;
+    color: #fff;
+}
+
+.content-b {
+/*    display:table-cell; */
+    position:relative;
+    vertical-align:middle;
+    text-align: left;
+    width: 90%;
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 100%;
+    font-family: OpenSans;
+    background-color: white;
+    padding: 40px 60px;
+    font-size: 110%;
+}
+
+.sidenote {
+    float: right;
+    clear: right;
+    margin-right: -150%;
+    background-color: #fff;
+    width: 100%;
+    max-width: 750px;
+    padding: 15px;
+    font-size: small;
+}
+
+.sup{
+    vertical-align: super;
+    font-size: xx-small;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* visual styles */
+body{
+    margin:0;
+    font-family:sans-serif;
+    font-size:18px;
+/*    line-height:100px; */
+    color:#000;
+    text-align:center;
+}
+section {
+    background:#9ed100;
+}
+.not-fullscreen {
+    height:50%;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+#menu img {
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+    opacity: 0.6;
+}
+
+.figure {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#art-menu {
+    font-family: BebasNeue;
+    float: right;
+    width: 100px;
+    height: 100%;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgba(255,255,255, 0.8);
+    position: relative;
+}
+
+#art-menu:hover {
+    background-color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0, 1);
+}
+
+#art-menu ul {
+  padding: 0;
+  position: absolute;
+  top: 32px;
+  right: 0;
+  width: 200px;
+  line-height: 30px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  list-style: none;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#art-menu:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  background: rgba(0,0,0,0.6);
+  color: rgba(255,255,255,0.6);
+}
+
+#art-menu:hover ul li:hover  {
+  background-color: rgba(255,255,255, 0.7);
+}
+
+/*#art-menu:hover ul li:hover a:link {
+  font-size: 18px;
+  color: black;
+}*/
+
+#art-menu:hover ul li:hover a:hover {
+  color: black;
+}
+
+#art-menu:hover ul li a:link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.fullvideo {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.fullvideo iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  max-width: 100%;
+	max-height: 100%;
+}
+
+.vimeo-links {
+  background-color: rgba(0,0,0,0.8);
+  padding: 20px 0;
+  color: white;
+}
+
+.vimeo-links  a:link {
+  color: white;
+  font-size: 30px;
+}
+
+.vimeo-links  a:hover {
+  color: white;
+  font-size: 30px;
+}
+
+.vimeo-links  a:visited {
+  color: white;
+  font-size: 30px;
+}
+
+.tooltipster-default {
+    background-color: #fff;
+    color: black;
+    max-width: 600px;
+    text-align: justify;
+    border: 1px solid #666;
+    border-radius: 0px;
+}
+
+.tooltipster-default .tooltipster-content {
+    font-family: OpenSans;
+    font-size: small;
+}
