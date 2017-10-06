@@ -1,7 +1,6 @@
 ---
 layout: article
-background: img/bgs/bg-17.jpg
-alignment: left
+background: img/bgs/bg-3.jpg
 title: REVOLUCIONAR A POSIÇÃO DO ESPECTADOR
 autor: Jordi Carmona Hurtado
 ---

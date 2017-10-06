@@ -1,6 +1,6 @@
 ---
 layout: article
-background: img/bgs/bg-13.jpg
+background: img/bgs/bg-20.jpg
 alignment: right
 title: Gênero e educação
 subtitle: processos cis  e  trans de autodesignação identitária e de leitura expressiva
