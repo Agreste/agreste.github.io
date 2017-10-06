@@ -1,11 +1,17 @@
 <header id="menu" class="site-header" role="banner">
-    <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logo.svg"></a>
-    <div id="art-menu">
+    <a href="{{ site.baseurl }}/2/"><img src="{{ site.baseurl }}/img/logo.svg"></a>
+    <div class="art-menu">
     Artigos
     <ul>
       {% for post in site.ed2 %}
         <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
       {% endfor %}
+    </ul>
+    </div>
+    <div class="art-menu">
+    Edições Anteriores
+    <ul>
+      {% include edicoes.html %}
     </ul>
     </div>
 </header>

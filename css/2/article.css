@@ -237,7 +237,7 @@ section {
     padding-bottom: 20px;
 }
 
-#art-menu {
+.art-menu {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     float: right;
@@ -251,12 +251,12 @@ section {
     position: relative;
 }
 
-#art-menu:hover {
+.art-menu:hover {
     background-color: rgba(255,255,255,0.8);
     color: rgba(0,0,0, 1);
 }
 
-#art-menu ul {
+.art-menu ul {
   padding: 0;
   position: absolute;
   top: 32px;
@@ -283,7 +283,7 @@ ul li:hover ul {
   visibility: visible;
 }
 
-#art-menu:hover ul {
+.art-menu:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
@@ -291,20 +291,20 @@ ul li:hover ul {
   color: rgba(255,255,255,0.6);
 }
 
-#art-menu:hover ul li:hover  {
+.art-menu:hover ul li:hover  {
   background-color: rgba(255,255,255, 0.7);
 }
 
-/*#art-menu:hover ul li:hover a:link {
+/*.art-menu:hover ul li:hover a:link {
   font-size: 18px;
   color: black;
 }*/
 
-#art-menu:hover ul li:hover a:hover {
+.art-menu:hover ul li:hover a:hover {
   color: black;
 }
 
-#art-menu:hover ul li a:link {
+.art-menu:hover ul li a:link {
   text-decoration: none;
   color: white;
   padding: 10px;
