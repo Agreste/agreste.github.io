@@ -1,6 +1,6 @@
 ---
 layout: article
-background: img/bgs/bg-3.jpg
+background: img/bgs/bg-18.jpg
 title: Visto da Janela
 autor: Henri Lefebvre
 tradutor: Eduardo Liron e Dalila Martins

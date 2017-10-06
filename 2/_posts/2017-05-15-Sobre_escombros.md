@@ -1,6 +1,6 @@
 ---
 layout: article
-background: img/bgs/bg-4.jpg
+background: img/bgs/bg-21.jpg
 alignment: right
 title: SOBRE ESCOMBROS E BERINGELAS
 autor: Lívia Piccolo

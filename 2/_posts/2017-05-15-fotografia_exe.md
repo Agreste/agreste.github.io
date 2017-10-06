@@ -1,7 +1,6 @@
 ---
 layout: article
-background: img/bgs/bg-12.jpg
-alignment: right
+background: img/bgs/bg-1.jpg
 title: Fotografia.exe
 subtitle: O arquivo que nos movimenta
 autor: Wellington Sacchi
