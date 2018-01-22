@@ -17,9 +17,10 @@
         <header>
           <img src="{{ site.baseurl }}/img/logo-black.svg" />
           <div style="clear:both; height: 15px;">   </div>
-          <div style="float:right; padding-right: 40%;">
-            <a href="{{ site.baseurl }}/1/sobre"><h1>?</h1></a>
+          <div style="text-align: center;">
+            <a href="{{ site.baseurl }}/edicoes"><h1 style="margin: 0">#</h1></a>
             <a href="{{ site.baseurl }}/1/editorial"><h1>!</h1></a>
+            <a href="{{ site.baseurl }}/1/sobre"><h1>?</h1></a>
           </div>
         </header>
         <div class="container">
@@ -28,6 +29,12 @@
               <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1>
               <h2>{{ post.autor }}</h2></a>
             </section>
+            {% if post.autor == "Maureen Turim" %}
+              <section>
+                <a href="http://moburb.org"><h1>Mobiliário Urbano</h1>
+                <h2>AGRESTE</h2></a>
+              </section>
+            {% endif %}
           {% endfor %}
         </div>
       </div>

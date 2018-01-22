@@ -1,9 +1,11 @@
 ---
 layout: 1article
 background: img/1/bgs/DOO_6789.jpg
-title: AGRESTE
+title: Sobre
 permalink: /1/sobre
 ---
+
+<h1>Agreste</h1>
 
 Não é mais uma
 
