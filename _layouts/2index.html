@@ -12,11 +12,15 @@
   </head>
 
   <body>
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper background" style="background-image: url('{{ site.baseurl }}/img/2/frontpage.jpg')">
         <header>
           <img src="{{ site.baseurl }}/img/logo-black.svg" />
+          <div style="clear:both; height: 15px;">   </div>
+          <div style="float:right; padding-right: 40%;">
+            <a href="{{ site.baseurl }}/1/sobre"><h1>?</h1></a>
+            <a href="{{ site.baseurl }}/1/editorial"><h1>!</h1></a>
+          </div>
         </header>
         <div class="container">
           {% for post in site.ed2 %}
