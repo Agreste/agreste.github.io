@@ -194,7 +194,6 @@ blockquote {
     width: 100%;
     height: 100%;
 }
-
 /* visual styles */
 body{
     margin:0;
@@ -318,6 +317,7 @@ ul li:hover ul {
   overflow: hidden;
   max-width: 100%;
 }
+
 .fullvideo iframe, .fullvideo object, .fullvideo embed {
 	position: absolute;
 	top: 0;
