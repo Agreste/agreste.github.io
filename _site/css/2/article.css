@@ -40,6 +40,10 @@ blockquote {
   font-style: italic;
 }
 
+img, video {
+  display: block;
+}
+
 .content-b a {
  color: black;
 }
@@ -314,7 +318,6 @@ ul li:hover ul {
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
-  overflow: hidden;
   max-width: 100%;
 }
 
@@ -324,6 +327,12 @@ ul li:hover ul {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.fullvideo video {
+  clear: both;
+  width: 100%;
+  opacity: 0.5;
 }
 
 .vimeo-links {
