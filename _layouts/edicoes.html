@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Revista Agreste - Edições</title>
+    <meta name="description" content="Revista Agreste: Agrupamento de Estudos Excêntricos">
+    <meta name="keywords" content="Cinema,Revista,Documentário,Brasil,Estranho,Agrupamento de Estudo Excêntrico">
+    <link href="{{ site.baseurl }}/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicon.png"/>
+  </head>
+
+  <body>
+    <header>
+      <img src="{{ site.baseurl }}/img/logo-black.svg" />
+      <div style="clear:both;"></div>
+      <span>
+        Edições
+      </span>
+    </header>
+    <main>
+      <ul>
+        {% include edicoes.html %}
+      </ul>
+    </main>
+
+  <script type="text/javascript" src="{{ site.baseurl }}/javascripts/jquery-1.12.2.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/javascripts/jquery.tooltipster.min.js"></script>
+
+  </body>
+</html>
