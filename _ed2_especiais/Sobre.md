@@ -21,12 +21,13 @@ Cena
 
 Precarizadxs, Terroristas, Extrañxs, Messias, Negradas, 
 
+
+
 Agrupamento de
 
 Estudos
 
 Excêntricos
-
 
 por
 
