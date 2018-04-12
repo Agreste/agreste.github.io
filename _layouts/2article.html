@@ -14,12 +14,12 @@ layout: 2default
                 {% else %}
                   <div class="box" id="title">
                 {% endif %}
-                      <h1>{{ page.title }}</h1>
+                      <h1>{{ page.title }}{% if page.outro %}<a class="tooltip" href="#nota" title="{{ page.outro }}" style="text-decoration: none; vertical-align: super; font-size: 0.5em;">1</a>{% endif %}</h1>
                       {% if page.subtitle %}<h2>{{ page.subtitle }}</h2>{% endif %}
                       {% if page.autor %}<span class="autor">{{ page.autor }}</span>{% endif %}
                       {% if page.tradutor %}<span>Tradução: {{ page.tradutor }}</span>{% endif %}
                       {% if page.revisor %}<span>Revisão: {{ page.revisor }}</span>{% endif %}
-                      {% if page.outro %}<span>{{ page.outro }}</span>{% endif %}
+
                   </div>
              </div>
           </div>

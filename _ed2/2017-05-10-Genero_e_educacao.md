@@ -3,7 +3,7 @@ layout: 2article
 background: img/2/bg-20.jpg
 alignment: right
 title: Gênero e educação
-subtitle: processos cis  e  trans de autodesignação identitária e de leitura expressiva
+subtitle: processos cis e trans de autodesignação identitária e de leitura expressiva
 autor: Dodi Leal
 ---
 
