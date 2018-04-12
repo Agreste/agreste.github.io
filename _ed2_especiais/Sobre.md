@@ -11,7 +11,7 @@ Não é mais uma
 
 _Revista marginal_
 
-É 
+É
 
 Pôr
 
@@ -19,7 +19,7 @@ Em
 
 Cena
 
-Precarizadxs, Terroristas, Extrañxs, Messias, Negradas, 
+Precarizadxs, Terroristas, Extrañxs, Messias, Negradas, Trans, Vanguardas, Paisagens, Memórias
 
 
 
