@@ -19,7 +19,7 @@ Em
 
 Cena
 
-Precarizadxs, Terroristas, Extrañxs, Messias, Negradas, Trans, Vanguardas, Paisagens, Memórias
+Precarizadxs, Terroristas, Extrañxs, Messias, Negradas, Ritmos, Paisagens, Bailes, Lembranças, Escombros
 
 
 
