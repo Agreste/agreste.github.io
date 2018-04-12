@@ -11,13 +11,16 @@ Não é mais uma
 
 _Revista marginal_
 
-Por
+Pôr
 
 Em
 
 Cena
 
-Precarizadxs, Terroristas, Extrañxs, Messias, Negradas,
+Precarizadxs, Terroristas, Extrañxs, Messias, Negradas
+
+
+
 
 Agrupamento de
 
