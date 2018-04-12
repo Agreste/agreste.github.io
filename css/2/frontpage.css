@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Old+Standard+TT:400i');
 
+html, body {
+  min-height: 100%;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background-repeat: no-repeat;
