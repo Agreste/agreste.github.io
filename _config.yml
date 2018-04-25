@@ -37,7 +37,7 @@ collections:
     permalink: /2/:title
   globals:
     output: true
-    permalink: /:title
+    permalink: /:title/
 
 # Build settings
 markdown: kramdown
