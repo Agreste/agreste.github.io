@@ -32,5 +32,6 @@ Excêntricos
 por
 
 Bruno Lottelli<br />
+Edgar Zanella<br />
 Eduardo Liron<br />
 Mirrah Iañez<br />
