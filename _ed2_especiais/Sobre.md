@@ -36,4 +36,4 @@ Edgar Zanella<br />
 Eduardo Liron<br />
 Mirrah Iañez<br />
 
-Projeto Gráfico: Eduardo Liron
+Fotografia e Projeto Gráfico: Eduardo Liron

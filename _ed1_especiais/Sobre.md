@@ -47,4 +47,5 @@ Frederico Moreira<br />
 Marcio Castro<br />
 Mirrah Iañez<br />
 
-Projeto Gráfico: Gabriel Marcondes
+Arte: Gabriel Marcondes
+Projeto Gráfico: Edgar Zanela
