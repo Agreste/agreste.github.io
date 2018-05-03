@@ -37,3 +37,5 @@ Eduardo Liron<br />
 Mirrah Iañez<br />
 
 Fotografia e Projeto Gráfico: Eduardo Liron
+
+Contato: <a href="mailto:revistaagreste@gmail.com">revistaagreste@gmail.com</a>.

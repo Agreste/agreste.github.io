@@ -49,3 +49,5 @@ Mirrah Iañez<br />
 
 Arte: Gabriel Marcondes
 Projeto Gráfico: Edgar Zanela
+
+Contato: <a href="mailto:revistaagreste@gmail.com">revistaagreste@gmail.com</a>.
