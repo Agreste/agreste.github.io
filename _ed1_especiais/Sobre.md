@@ -46,3 +46,5 @@ Eduardo Liron<br />
 Frederico Moreira<br />
 Marcio Castro<br />
 Mirrah Iañez<br />
+
+Projeto Gráfico: Gabriel Marcondes
